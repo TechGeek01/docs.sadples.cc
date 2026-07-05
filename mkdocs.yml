@@ -1,0 +1,5 @@
+site_name: Sadples.cc
+
+nav:
+  - Home: index.md
+theme: readthedocs
