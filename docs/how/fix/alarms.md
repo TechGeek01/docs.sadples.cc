@@ -6,7 +6,7 @@
 	The default PIN is `1234`. I will assume this default PIN in this guide.
 
 1. Disarm the alarm with the current PIN (ex. `1234`)
-2. Enter programming mode:
+2. Enter programming mode
 
 	`# [current PIN] *`
 
