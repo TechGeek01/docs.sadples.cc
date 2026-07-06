@@ -16,7 +16,7 @@
 
 /* Change the left sidebar navigation background color */
 .wy-nav-side {
-	/*background: #2c3e50 !important; /* Replace with your primary color */*/
+	background: oklch(from var(--brand-red) 0.18 0.06 h) !important; /* Replace with your primary color */
 }
 
 /* Change the background of the search bar area */
@@ -29,6 +29,10 @@
 }
 .wy-menu-vertical li.toctree-l1.current > a {
 	background: #f2f2f2 !important;
+}
+
+.rst-versions .rst-current-version {
+	background: oklch(from var(--brand-red) 0.18 0.3 h);
 }
 
 /* Change inline code snippet text colors */
