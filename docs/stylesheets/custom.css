@@ -1,0 +1,48 @@
+:root {
+	--brand-red: #cc0000;
+
+	--charcoal-gray: #464644;
+
+	--monokai-bg: #272822;       /* Classic dark background */
+	--monokai-fg: #f8f8f2;       /* Off-white text */
+	--monokai-pink: #f92672;     /* Keywords, tags, and regex */
+	--monokai-blue: #66d9ef;     /* Functions, attributes, and builtins */
+	--monokai-green: #a6e22e;    /* Strings and class names */
+	--monokai-orange: #fd971f;   /* Function arguments and variables */
+	--monokai-purple: #ae81ff;   /* Constants, numbers, and booleans */
+	--monokai-yellow: #e6db74;   /* Alternative string/operator accent */
+	--monokai-comment: #75715e;  /* Muted gray-olive for comments */
+}
+
+/* Change the left sidebar navigation background color */
+.wy-nav-side {
+	/*background: #2c3e50 !important; /* Replace with your primary color */*/
+}
+
+/* Change the background of the search bar area */
+.wy-side-nav-search {
+	background: oklch(from var(--brand-red) calc(l * 0.9) c h); !important;
+}
+
+.wy-nav-content-wrap {
+	background: #f2f2f2;
+}
+.wy-menu-vertical li.toctree-l1.current > a {
+	background: #f2f2f2 !important;
+}
+
+/* Change inline code snippet text colors */
+.rst-content code,
+.admonition code {
+	color: var(--monokai-green) !important; /* Changes text color for inline code */
+	background-color: var(--charcoal-gray) !important;
+	padding: 0.5em 0.5em 0.2em;
+}
+
+/* Change regular hyperlink colors */
+.rst-content a {
+	color: #2980b9;
+}
+.rst-content a:hover {
+	color: #3498db;
+}
