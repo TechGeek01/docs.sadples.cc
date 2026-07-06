@@ -2,4 +2,14 @@ site_name: Sadples.cc
 
 nav:
   - Home: index.md
-theme: readthedocs
+  - How the fuck do I:
+    - Fix:
+      - Alarms: how/fix/alarms.md
+theme:
+  name: readthedocs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details # Required if you want collapsible admonitions
+  - pymdownx.superfences # Required to nest complex code blocks inside admonitions
+
