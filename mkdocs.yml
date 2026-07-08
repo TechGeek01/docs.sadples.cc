@@ -5,6 +5,8 @@ nav:
   - How the fuck do I:
     - Fix:
       - Alarms: how/fix/alarms.md
+    - Setup:
+      - Windows without Microsoft Account: how/setup/windows.md
 theme:
   name: readthedocs
 extra_css:
