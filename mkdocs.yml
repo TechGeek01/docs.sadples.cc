@@ -5,6 +5,8 @@ nav:
   - How the fuck do I:
     - Fix:
       - Alarms: how/fix/alarms.md
+    - Remove:
+      - Fake Microsoft Scam: how/remove/fakemicrosoft.md
     - Setup:
       - Windows without Microsoft Account: how/setup/windows.md
 theme:
